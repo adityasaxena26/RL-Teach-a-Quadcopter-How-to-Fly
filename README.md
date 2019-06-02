@@ -32,9 +32,16 @@ This project uses the following software and Python libraries:
 
 * [Keras](https://pypi.org/project/Keras/)
 
-You will also need to have software installed to run and execute a
-[Jupyter Notebook](http://ipython.org/notebook.html).
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
+While Jupyter runs code in many programming languages, Python is a requirement (Python 3.3 or greater) for installing the Jupyter Notebook.
 
-If you do not have Python installed yet, it is highly recommended
-that you install the [Anaconda](http://continuum.io/downloads)
-distribution of Python, which already has many of the above packages and more included.
+For new users, installing Anaconda is highly recommended. Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.
+As an existing Python user, you may wish to install Jupyter using Python’s package manager, ```pip```, instead of Anaconda.
+
+First, ensure that you have the latest pip; older versions may have trouble with some dependencies: ```pip3 install --upgrade pip```
+
+Then install the Jupyter Notebook using:
+```pip3 install jupyter```
+
+To run the notebook:
+``` jupyter notebook```
