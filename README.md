@@ -16,3 +16,25 @@ The next step in this evolution is to enable quadcopters to autonomously achieve
 You can use one of many different algorithms to design your agent, as long as it works with continuous state and action spaces. One popular choice is Deep Deterministic Policy Gradients or DDPG. It is actually an actor-critic method, but the key idea is that the underlying policy function used is deterministic in nature, with some noise added in externally to produce the desired stochasticity in actions taken.
 
 The two main components of the algorithm, the actor and critic networks can be implemented using most modern deep learning libraries, such as Keras or TensorFlow.
+
+## Software and Libraries
+This project uses the following software and Python libraries:
+
+* [Python](https://www.python.org/download/releases)
+
+* [NumPy](http://www.numpy.org/)
+
+* [Pandas](https://pypi.org/project/pandas/)
+
+* [Matplotlib](http://matplotlib.org/)
+
+* [Tensorflow](https://www.tensorflow.org)
+
+* [Keras](https://pypi.org/project/Keras/)
+
+You will also need to have software installed to run and execute a
+[Jupyter Notebook](http://ipython.org/notebook.html).
+
+If you do not have Python installed yet, it is highly recommended
+that you install the [Anaconda](http://continuum.io/downloads)
+distribution of Python, which already has many of the above packages and more included.
