@@ -45,3 +45,20 @@ Then install the Jupyter Notebook using:
 
 To run the notebook:
 ``` jupyter notebook```
+
+
+### Project Instructions
+
+Clone the repository and navigate to the downloaded folder.
+```
+git clone https://github.com/adityasaxena26/RL-Teach-a-Quadcopter-How-to-Fly.git
+cd RL-Teach-a-Quadcopter-How-to-Fly
+```
+
+The project contains these files:
+
+```task.py```: Define your task (environment) in this file.
+```agents/```: Folder containing reinforcement learning agents.
+```policy_search.py```: A sample agent has been provided here.
+```agent.py```: Develop your reinforcement learning agent here.
+```physics_sim.py```: This file contains the simulator for the quadcopter. Do not modify this file.
