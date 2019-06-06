@@ -38,12 +38,16 @@ While Jupyter runs code in many programming languages, Python is a requirement (
 For new users, installing Anaconda is highly recommended. Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.
 As an existing Python user, you may wish to install Jupyter using Python’s package manager, ```pip```, instead of Anaconda.
 
-First, ensure that you have the latest pip; older versions may have trouble with some dependencies: ```pip3 install --upgrade pip```
+First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
+
+```pip3 install --upgrade pip```
 
 Then install the Jupyter Notebook using:
+
 ```pip3 install jupyter```
 
 To run the notebook:
+
 ``` jupyter notebook```
 
 
@@ -54,6 +58,11 @@ Clone the repository and navigate to the downloaded folder.
 git clone https://github.com/adityasaxena26/RL-Teach-a-Quadcopter-How-to-Fly.git
 cd RL-Teach-a-Quadcopter-How-to-Fly
 ```
+Run the following to open the notebook server:
+```  
+jupyter notebook
+```
+In your browser, open ```RL_Quadcopter_Agent.ipynb```
 
 The project contains these files:
 
